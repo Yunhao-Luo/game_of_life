@@ -9,9 +9,11 @@ class UI(tk.Tk):
 
         self.title("Game of Life")
         self.geometry("800x600")
+        self.w, self.h = self.winfo_screenwidth(), self.winfo_screenheight()
+        self.geometry("%dx%d+0+0" % (0.995 * self.w, 0.9 * self.h))
         self.bt_list = []
-        self.row = 25
-        self.col = 25
+        self.row = 33
+        self.col = 46
         self.game = Game(25, 25)
         self.game_board = self.game.ret_board()
         self.count = 0
