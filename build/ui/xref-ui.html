@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>modulegraph cross reference for pyi_rth__tkinter.py, pyi_rth_subprocess.py, ui.py</title>
+    <title>modulegraph cross reference for pyi_rth__tkinter.py, pyi_rth_inspect.py, pyi_rth_pkgutil.py, pyi_rth_subprocess.py, ui.py</title>
     <style>
       .node { padding: 0.5em 0 0.5em; border-top: thin grey dotted; }
       .moduletype { font: smaller italic }
@@ -11,7 +11,7 @@
     </style>
   </head>
   <body>
-    <h1>modulegraph cross reference for pyi_rth__tkinter.py, pyi_rth_subprocess.py, ui.py</h1>
+    <h1>modulegraph cross reference for pyi_rth__tkinter.py, pyi_rth_inspect.py, pyi_rth_pkgutil.py, pyi_rth_subprocess.py, ui.py</h1>
 
 <div class="node">
   <a name="pyi_rth__tkinter.py"></a>
@@ -19,6 +19,43 @@
 <span class="moduletype">Script</span>  <div class="import">
 imports:
     <a href="#os">os</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#ui.py">ui.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pyi_rth_inspect.py"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/PyInstaller/hooks/rthooks/pyi_rth_inspect.py" type="text/plain"><tt>pyi_rth_inspect.py</tt></a>
+<span class="moduletype">Script</span>  <div class="import">
+imports:
+    <a href="#inspect">inspect</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#ui.py">ui.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pyi_rth_pkgutil.py"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgutil.py" type="text/plain"><tt>pyi_rth_pkgutil.py</tt></a>
+<span class="moduletype">Script</span>  <div class="import">
+imports:
+    <a href="#os">os</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
+ &#8226;   <a href="#pyimod03_importers">pyimod03_importers</a>
  &#8226;   <a href="#sys">sys</a>
 
   </div>
@@ -57,6 +94,7 @@ imports:
  &#8226;   <a href="#_collections_abc">_collections_abc</a>
  &#8226;   <a href="#_weakrefset">_weakrefset</a>
  &#8226;   <a href="#abc">abc</a>
+ &#8226;   <a href="#cgitb">cgitb</a>
  &#8226;   <a href="#codecs">codecs</a>
  &#8226;   <a href="#collections">collections</a>
  &#8226;   <a href="#collections.abc">collections.abc</a>
@@ -192,18 +230,23 @@ imports:
  &#8226;   <a href="#linecache">linecache</a>
  &#8226;   <a href="#locale">locale</a>
  &#8226;   <a href="#operator">operator</a>
+ &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pyi_rth__tkinter.py">pyi_rth__tkinter.py</a>
+ &#8226;   <a href="#pyi_rth_inspect.py">pyi_rth_inspect.py</a>
+ &#8226;   <a href="#pyi_rth_pkgutil.py">pyi_rth_pkgutil.py</a>
  &#8226;   <a href="#pyi_rth_subprocess.py">pyi_rth_subprocess.py</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#reprlib">reprlib</a>
  &#8226;   <a href="#sre_compile">sre_compile</a>
  &#8226;   <a href="#sre_constants">sre_constants</a>
  &#8226;   <a href="#sre_parse">sre_parse</a>
+ &#8226;   <a href="#threading">threading</a>
  &#8226;   <a href="#time">time</a>
  &#8226;   <a href="#tkinter">tkinter</a>
  &#8226;   <a href="#tokenize">tokenize</a>
  &#8226;   <a href="#traceback">traceback</a>
  &#8226;   <a href="#types">types</a>
+ &#8226;   <a href="#typing">typing</a>
  &#8226;   <a href="#warnings">warnings</a>
  &#8226;   <a href="#weakref">weakref</a>
 
@@ -228,7 +271,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>'org.python'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#pickle">pickle</a>
+    <a href="#copy">copy</a>
  &#8226;   <a href="#xml.sax">xml.sax</a>
 
   </div>
@@ -240,6 +283,36 @@ imported by:
   <tt>_abc</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
     <a href="#abc">abc</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="_aix_support"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/_aix_support.py" type="text/plain"><tt>_aix_support</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_bootsubprocess">_bootsubprocess</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils.util">distutils.util</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="_ast"></a>
+  <tt>_ast</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
+imported by:
+    <a href="#ast">ast</a>
 
   </div>
 
@@ -279,6 +352,22 @@ imports:
 imported by:
     <a href="#locale">locale</a>
  &#8226;   <a href="#ui.py">ui.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="_bootsubprocess"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/_bootsubprocess.py" type="text/plain"><tt>_bootsubprocess</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#os">os</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#_aix_support">_aix_support</a>
 
   </div>
 
@@ -667,11 +756,45 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="_opcode"></a>
+  <tt>_opcode</tt> <span class="moduletype"><tt>/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload/_opcode.cpython-39-darwin.so</tt></span>  <div class="import">
+imported by:
+    <a href="#opcode">opcode</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="_operator"></a>
   <tt>_operator</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
     <a href="#hmac">hmac</a>
  &#8226;   <a href="#operator">operator</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="_osx_support"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/_osx_support.py" type="text/plain"><tt>_osx_support</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.log">distutils.log</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#tempfile">tempfile</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils.sysconfig">distutils.sysconfig</a>
+ &#8226;   <a href="#distutils.util">distutils.util</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
 
   </div>
 
@@ -926,6 +1049,18 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="_sysconfigdata__darwin_darwin"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/_sysconfigdata__darwin_darwin.py" type="text/plain"><tt>_sysconfigdata__darwin_darwin</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imported by:
+    <a href="#distutils">distutils</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="_thread"></a>
   <tt>_thread</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
@@ -1046,6 +1181,17 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="_winreg"></a>
+  <a target="code" href="" type="text/plain"><tt>_winreg</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#platform">platform</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="abc"></a>
   <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/abc.py" type="text/plain"><tt>abc</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -1117,6 +1263,29 @@ imported by:
  &#8226;   <a href="#multiprocessing.managers">multiprocessing.managers</a>
  &#8226;   <a href="#multiprocessing.reduction">multiprocessing.reduction</a>
  &#8226;   <a href="#socket">socket</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="ast"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ast.py" type="text/plain"><tt>ast</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_ast">_ast</a>
+ &#8226;   <a href="#argparse">argparse</a>
+ &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#enum">enum</a>
+ &#8226;   <a href="#inspect">inspect</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#inspect">inspect</a>
 
   </div>
 
@@ -1270,6 +1439,31 @@ imported by:
  &#8226;   <a href="#email._parseaddr">email._parseaddr</a>
  &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
  &#8226;   <a href="#ssl">ssl</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cgitb"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/cgitb.py" type="text/plain"><tt>cgitb</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#inspect">inspect</a>
+ &#8226;   <a href="#keyword">keyword</a>
+ &#8226;   <a href="#linecache">linecache</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#tempfile">tempfile</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#tokenize">tokenize</a>
+ &#8226;   <a href="#traceback">traceback</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#ui.py">ui.py</a>
 
   </div>
 
@@ -1605,8 +1799,8 @@ imported by:
   <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/copy.py" type="text/plain"><tt>copy</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#copyreg">copyreg</a>
- &#8226;   <a href="#org">org</a>
+    <a href="#'org.python'">'org.python'</a>
+ &#8226;   <a href="#copyreg">copyreg</a>
  &#8226;   <a href="#types">types</a>
  &#8226;   <a href="#weakref">weakref</a>
 
@@ -1706,6 +1900,379 @@ imported by:
  &#8226;   <a href="#statistics">statistics</a>
  &#8226;   <a href="#test.support">test.support</a>
  &#8226;   <a href="#xmlrpc.client">xmlrpc.client</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="dis"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/dis.py" type="text/plain"><tt>dis</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#argparse">argparse</a>
+ &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#opcode">opcode</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#types">types</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#inspect">inspect</a>
+ &#8226;   <a href="#pdb">pdb</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/distutils/__init__.py" type="text/plain"><tt>distutils</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#_sysconfigdata__darwin_darwin">_sysconfigdata__darwin_darwin</a>
+ &#8226;   <a href="#distutils.ccompiler">distutils.ccompiler</a>
+ &#8226;   <a href="#distutils.log">distutils.log</a>
+ &#8226;   <a href="#distutils.sysconfig">distutils.sysconfig</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#_osx_support">_osx_support</a>
+ &#8226;   <a href="#distutils.ccompiler">distutils.ccompiler</a>
+ &#8226;   <a href="#distutils.debug">distutils.debug</a>
+ &#8226;   <a href="#distutils.dep_util">distutils.dep_util</a>
+ &#8226;   <a href="#distutils.dir_util">distutils.dir_util</a>
+ &#8226;   <a href="#distutils.errors">distutils.errors</a>
+ &#8226;   <a href="#distutils.fancy_getopt">distutils.fancy_getopt</a>
+ &#8226;   <a href="#distutils.file_util">distutils.file_util</a>
+ &#8226;   <a href="#distutils.filelist">distutils.filelist</a>
+ &#8226;   <a href="#distutils.log">distutils.log</a>
+ &#8226;   <a href="#distutils.spawn">distutils.spawn</a>
+ &#8226;   <a href="#distutils.sysconfig">distutils.sysconfig</a>
+ &#8226;   <a href="#distutils.text_file">distutils.text_file</a>
+ &#8226;   <a href="#distutils.util">distutils.util</a>
+ &#8226;   <a href="#test.support">test.support</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils.ccompiler"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/distutils/ccompiler.py" type="text/plain"><tt>distutils.ccompiler</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.debug">distutils.debug</a>
+ &#8226;   <a href="#distutils.dep_util">distutils.dep_util</a>
+ &#8226;   <a href="#distutils.dir_util">distutils.dir_util</a>
+ &#8226;   <a href="#distutils.errors">distutils.errors</a>
+ &#8226;   <a href="#distutils.fancy_getopt">distutils.fancy_getopt</a>
+ &#8226;   <a href="#distutils.file_util">distutils.file_util</a>
+ &#8226;   <a href="#distutils.log">distutils.log</a>
+ &#8226;   <a href="#distutils.spawn">distutils.spawn</a>
+ &#8226;   <a href="#distutils.util">distutils.util</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#tempfile">tempfile</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils">distutils</a>
+ &#8226;   <a href="#test.support">test.support</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils.debug"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/distutils/debug.py" type="text/plain"><tt>distutils.debug</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#distutils">distutils</a>
+ &#8226;   <a href="#os">os</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils.ccompiler">distutils.ccompiler</a>
+ &#8226;   <a href="#distutils.filelist">distutils.filelist</a>
+ &#8226;   <a href="#distutils.spawn">distutils.spawn</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils.dep_util"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/distutils/dep_util.py" type="text/plain"><tt>distutils.dep_util</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.errors">distutils.errors</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#stat">stat</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils.ccompiler">distutils.ccompiler</a>
+ &#8226;   <a href="#distutils.file_util">distutils.file_util</a>
+ &#8226;   <a href="#distutils.util">distutils.util</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils.dir_util"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/distutils/dir_util.py" type="text/plain"><tt>distutils.dir_util</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.errors">distutils.errors</a>
+ &#8226;   <a href="#distutils.file_util">distutils.file_util</a>
+ &#8226;   <a href="#distutils.log">distutils.log</a>
+ &#8226;   <a href="#errno">errno</a>
+ &#8226;   <a href="#os">os</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils.ccompiler">distutils.ccompiler</a>
+ &#8226;   <a href="#distutils.util">distutils.util</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils.errors"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/distutils/errors.py" type="text/plain"><tt>distutils.errors</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#distutils">distutils</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils.ccompiler">distutils.ccompiler</a>
+ &#8226;   <a href="#distutils.dep_util">distutils.dep_util</a>
+ &#8226;   <a href="#distutils.dir_util">distutils.dir_util</a>
+ &#8226;   <a href="#distutils.fancy_getopt">distutils.fancy_getopt</a>
+ &#8226;   <a href="#distutils.file_util">distutils.file_util</a>
+ &#8226;   <a href="#distutils.filelist">distutils.filelist</a>
+ &#8226;   <a href="#distutils.spawn">distutils.spawn</a>
+ &#8226;   <a href="#distutils.sysconfig">distutils.sysconfig</a>
+ &#8226;   <a href="#distutils.util">distutils.util</a>
+ &#8226;   <a href="#test.support">test.support</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils.fancy_getopt"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/distutils/fancy_getopt.py" type="text/plain"><tt>distutils.fancy_getopt</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.errors">distutils.errors</a>
+ &#8226;   <a href="#getopt">getopt</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#string">string</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils.ccompiler">distutils.ccompiler</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils.file_util"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/distutils/file_util.py" type="text/plain"><tt>distutils.file_util</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.dep_util">distutils.dep_util</a>
+ &#8226;   <a href="#distutils.errors">distutils.errors</a>
+ &#8226;   <a href="#distutils.log">distutils.log</a>
+ &#8226;   <a href="#errno">errno</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#posixpath">posixpath</a>
+ &#8226;   <a href="#stat">stat</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils.ccompiler">distutils.ccompiler</a>
+ &#8226;   <a href="#distutils.dir_util">distutils.dir_util</a>
+ &#8226;   <a href="#distutils.util">distutils.util</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils.filelist"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/distutils/filelist.py" type="text/plain"><tt>distutils.filelist</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.debug">distutils.debug</a>
+ &#8226;   <a href="#distutils.errors">distutils.errors</a>
+ &#8226;   <a href="#distutils.log">distutils.log</a>
+ &#8226;   <a href="#distutils.util">distutils.util</a>
+ &#8226;   <a href="#fnmatch">fnmatch</a>
+ &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#re">re</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils.util">distutils.util</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils.log"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/distutils/log.py" type="text/plain"><tt>distutils.log</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#distutils">distutils</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#_osx_support">_osx_support</a>
+ &#8226;   <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.ccompiler">distutils.ccompiler</a>
+ &#8226;   <a href="#distutils.dir_util">distutils.dir_util</a>
+ &#8226;   <a href="#distutils.file_util">distutils.file_util</a>
+ &#8226;   <a href="#distutils.filelist">distutils.filelist</a>
+ &#8226;   <a href="#distutils.spawn">distutils.spawn</a>
+ &#8226;   <a href="#distutils.util">distutils.util</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils.spawn"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/distutils/spawn.py" type="text/plain"><tt>distutils.spawn</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.debug">distutils.debug</a>
+ &#8226;   <a href="#distutils.errors">distutils.errors</a>
+ &#8226;   <a href="#distutils.log">distutils.log</a>
+ &#8226;   <a href="#distutils.sysconfig">distutils.sysconfig</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils.ccompiler">distutils.ccompiler</a>
+ &#8226;   <a href="#distutils.util">distutils.util</a>
+ &#8226;   <a href="#test.support">test.support</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils.sysconfig"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/distutils/sysconfig.py" type="text/plain"><tt>distutils.sysconfig</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_imp">_imp</a>
+ &#8226;   <a href="#_osx_support">_osx_support</a>
+ &#8226;   <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.errors">distutils.errors</a>
+ &#8226;   <a href="#distutils.text_file">distutils.text_file</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.spawn">distutils.spawn</a>
+ &#8226;   <a href="#distutils.util">distutils.util</a>
+ &#8226;   <a href="#test.support">test.support</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils.text_file"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/distutils/text_file.py" type="text/plain"><tt>distutils.text_file</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#distutils">distutils</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils.sysconfig">distutils.sysconfig</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils.util"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/distutils/util.py" type="text/plain"><tt>distutils.util</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_aix_support">_aix_support</a>
+ &#8226;   <a href="#_osx_support">_osx_support</a>
+ &#8226;   <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.dep_util">distutils.dep_util</a>
+ &#8226;   <a href="#distutils.dir_util">distutils.dir_util</a>
+ &#8226;   <a href="#distutils.errors">distutils.errors</a>
+ &#8226;   <a href="#distutils.file_util">distutils.file_util</a>
+ &#8226;   <a href="#distutils.filelist">distutils.filelist</a>
+ &#8226;   <a href="#distutils.log">distutils.log</a>
+ &#8226;   <a href="#distutils.spawn">distutils.spawn</a>
+ &#8226;   <a href="#distutils.sysconfig">distutils.sysconfig</a>
+ &#8226;   <a href="#importlib.util">importlib.util</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pwd">pwd</a>
+ &#8226;   <a href="#py_compile">py_compile</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#string">string</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#tempfile">tempfile</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils.ccompiler">distutils.ccompiler</a>
+ &#8226;   <a href="#distutils.filelist">distutils.filelist</a>
 
   </div>
 
@@ -4998,6 +5565,28 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="glob"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/glob.py" type="text/plain"><tt>glob</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#fnmatch">fnmatch</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pdb">pdb</a>
+ &#8226;   <a href="#test.support">test.support</a>
+ &#8226;   <a href="#webbrowser">webbrowser</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="grp"></a>
   <tt>grp</tt> <span class="moduletype"><tt>/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload/grp.cpython-39-darwin.so</tt></span>  <div class="import">
 imported by:
@@ -5085,6 +5674,40 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="html"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/html/__init__.py" type="text/plain"><tt>html</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#html.entities">html.entities</a>
+ &#8226;   <a href="#re">re</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#html.entities">html.entities</a>
+ &#8226;   <a href="#http.server">http.server</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="html.entities"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/html/entities.py" type="text/plain"><tt>html.entities</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#html">html</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#html">html</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="http"></a>
   <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/__init__.py" type="text/plain"><tt>http</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
@@ -5161,6 +5784,45 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="http.server"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/server.py" type="text/plain"><tt>http.server</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#argparse">argparse</a>
+ &#8226;   <a href="#base64">base64</a>
+ &#8226;   <a href="#binascii">binascii</a>
+ &#8226;   <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#copy">copy</a>
+ &#8226;   <a href="#datetime">datetime</a>
+ &#8226;   <a href="#email.utils">email.utils</a>
+ &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#html">html</a>
+ &#8226;   <a href="#http">http</a>
+ &#8226;   <a href="#http.client">http.client</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#mimetypes">mimetypes</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#posixpath">posixpath</a>
+ &#8226;   <a href="#pwd">pwd</a>
+ &#8226;   <a href="#select">select</a>
+ &#8226;   <a href="#shutil">shutil</a>
+ &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#socketserver">socketserver</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#urllib.parse">urllib.parse</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pydoc">pydoc</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="importlib"></a>
   <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py" type="text/plain"><tt>importlib</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
@@ -5172,6 +5834,7 @@ imports:
  &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
  &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
  &#8226;   <a href="#importlib.abc">importlib.abc</a>
+ &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#types">types</a>
  &#8226;   <a href="#warnings">warnings</a>
@@ -5287,6 +5950,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#ctypes.util">ctypes.util</a>
+ &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.abc">importlib.abc</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#pkgutil">pkgutil</a>
@@ -5358,6 +6022,53 @@ imported by:
  &#8226;   <a href="#runpy">runpy</a>
  &#8226;   <a href="#test.support">test.support</a>
  &#8226;   <a href="#zipfile">zipfile</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="inspect"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/inspect.py" type="text/plain"><tt>inspect</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#abc">abc</a>
+ &#8226;   <a href="#argparse">argparse</a>
+ &#8226;   <a href="#ast">ast</a>
+ &#8226;   <a href="#builtins">builtins</a>
+ &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#collections.abc">collections.abc</a>
+ &#8226;   <a href="#dis">dis</a>
+ &#8226;   <a href="#enum">enum</a>
+ &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#importlib">importlib</a>
+ &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
+ &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#linecache">linecache</a>
+ &#8226;   <a href="#operator">operator</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#token">token</a>
+ &#8226;   <a href="#tokenize">tokenize</a>
+ &#8226;   <a href="#types">types</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#ast">ast</a>
+ &#8226;   <a href="#asyncio.coroutines">asyncio.coroutines</a>
+ &#8226;   <a href="#asyncio.format_helpers">asyncio.format_helpers</a>
+ &#8226;   <a href="#asyncio.tasks">asyncio.tasks</a>
+ &#8226;   <a href="#bdb">bdb</a>
+ &#8226;   <a href="#cgitb">cgitb</a>
+ &#8226;   <a href="#doctest">doctest</a>
+ &#8226;   <a href="#pdb">pdb</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#pyi_rth_inspect.py">pyi_rth_inspect.py</a>
+ &#8226;   <a href="#unittest.async_case">unittest.async_case</a>
 
   </div>
 
@@ -5480,11 +6191,23 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="java"></a>
+  <a target="code" href="" type="text/plain"><tt>java</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#platform">platform</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="keyword"></a>
   <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/keyword.py" type="text/plain"><tt>keyword</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imported by:
-    <a href="#collections">collections</a>
+    <a href="#cgitb">cgitb</a>
+ &#8226;   <a href="#collections">collections</a>
  &#8226;   <a href="#ui.py">ui.py</a>
 
   </div>
@@ -5506,6 +6229,7 @@ imports:
 imported by:
     <a href="#asyncio.base_tasks">asyncio.base_tasks</a>
  &#8226;   <a href="#bdb">bdb</a>
+ &#8226;   <a href="#cgitb">cgitb</a>
  &#8226;   <a href="#doctest">doctest</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#pdb">pdb</a>
@@ -5771,6 +6495,22 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="opcode"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/opcode.py" type="text/plain"><tt>opcode</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_opcode">_opcode</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#dis">dis</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="operator"></a>
   <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/operator.py" type="text/plain"><tt>operator</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -5821,7 +6561,7 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>org</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#copy">copy</a>
+    <a href="#pickle">pickle</a>
 
   </div>
 
@@ -5859,6 +6599,7 @@ imported by:
  &#8226;   <a href="#asyncio.windows_utils">asyncio.windows_utils</a>
  &#8226;   <a href="#bdb">bdb</a>
  &#8226;   <a href="#bz2">bz2</a>
+ &#8226;   <a href="#cgitb">cgitb</a>
  &#8226;   <a href="#concurrent.futures.process">concurrent.futures.process</a>
  &#8226;   <a href="#concurrent.futures.thread">concurrent.futures.thread</a>
  &#8226;   <a href="#configparser">configparser</a>
@@ -5927,6 +6668,8 @@ imported by:
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyi_rth__tkinter.py">pyi_rth__tkinter.py</a>
+ &#8226;   <a href="#pyi_rth_inspect.py">pyi_rth_inspect.py</a>
+ &#8226;   <a href="#pyi_rth_pkgutil.py">pyi_rth_pkgutil.py</a>
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#runpy">runpy</a>
  &#8226;   <a href="#shlex">shlex</a>
@@ -5941,6 +6684,7 @@ imported by:
  &#8226;   <a href="#test.support">test.support</a>
  &#8226;   <a href="#threading">threading</a>
  &#8226;   <a href="#tkinter">tkinter</a>
+ &#8226;   <a href="#ui.py">ui.py</a>
  &#8226;   <a href="#unittest.loader">unittest.loader</a>
  &#8226;   <a href="#unittest.main">unittest.main</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
@@ -6003,14 +6747,14 @@ imported by:
   <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/pickle.py" type="text/plain"><tt>pickle</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'org.python'">'org.python'</a>
- &#8226;   <a href="#_compat_pickle">_compat_pickle</a>
+    <a href="#_compat_pickle">_compat_pickle</a>
  &#8226;   <a href="#_pickle">_pickle</a>
  &#8226;   <a href="#codecs">codecs</a>
  &#8226;   <a href="#copyreg">copyreg</a>
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#io">io</a>
  &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#org">org</a>
  &#8226;   <a href="#pprint">pprint</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#struct">struct</a>
@@ -6024,6 +6768,95 @@ imported by:
  &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#multiprocessing.reduction">multiprocessing.reduction</a>
  &#8226;   <a href="#tracemalloc">tracemalloc</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkgutil"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/pkgutil.py" type="text/plain"><tt>pkgutil</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#collections">collections</a>
+ &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#importlib">importlib</a>
+ &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
+ &#8226;   <a href="#importlib.util">importlib.util</a>
+ &#8226;   <a href="#inspect">inspect</a>
+ &#8226;   <a href="#marshal">marshal</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#posixpath">posixpath</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#types">types</a>
+ &#8226;   <a href="#warnings">warnings</a>
+ &#8226;   <a href="#zipimport">zipimport</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#lib2to3.pgen2.driver">lib2to3.pgen2.driver</a>
+ &#8226;   <a href="#lib2to3.refactor">lib2to3.refactor</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#pyi_rth_pkgutil.py">pyi_rth_pkgutil.py</a>
+ &#8226;   <a href="#runpy">runpy</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="platform"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/platform.py" type="text/plain"><tt>platform</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#'java.lang'">'java.lang'</a>
+ &#8226;   <a href="#_winreg">_winreg</a>
+ &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#java">java</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#plistlib">plistlib</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#struct">struct</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#vms_lib">vms_lib</a>
+ &#8226;   <a href="#winreg">winreg</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#test.support">test.support</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="plistlib"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/plistlib.py" type="text/plain"><tt>plistlib</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#binascii">binascii</a>
+ &#8226;   <a href="#codecs">codecs</a>
+ &#8226;   <a href="#datetime">datetime</a>
+ &#8226;   <a href="#enum">enum</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#struct">struct</a>
+ &#8226;   <a href="#xml.parsers.expat">xml.parsers.expat</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#platform">platform</a>
 
   </div>
 
@@ -6168,12 +7001,97 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="pydoc"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/pydoc.py" type="text/plain"><tt>pydoc</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#builtins">builtins</a>
+ &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#email.message">email.message</a>
+ &#8226;   <a href="#getopt">getopt</a>
+ &#8226;   <a href="#http.server">http.server</a>
+ &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
+ &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
+ &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
+ &#8226;   <a href="#importlib.util">importlib.util</a>
+ &#8226;   <a href="#inspect">inspect</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
+ &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#pydoc_data.topics">pydoc_data.topics</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#reprlib">reprlib</a>
+ &#8226;   <a href="#select">select</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
+ &#8226;   <a href="#tempfile">tempfile</a>
+ &#8226;   <a href="#textwrap">textwrap</a>
+ &#8226;   <a href="#threading">threading</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#tokenize">tokenize</a>
+ &#8226;   <a href="#traceback">traceback</a>
+ &#8226;   <a href="#tty">tty</a>
+ &#8226;   <a href="#urllib.parse">urllib.parse</a>
+ &#8226;   <a href="#warnings">warnings</a>
+ &#8226;   <a href="#webbrowser">webbrowser</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#cgitb">cgitb</a>
+ &#8226;   <a href="#pdb">pdb</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pydoc_data"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/pydoc_data/__init__.py" type="text/plain"><tt>pydoc_data</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imported by:
+    <a href="#pydoc_data.topics">pydoc_data.topics</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pydoc_data.topics"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/pydoc_data/topics.py" type="text/plain"><tt>pydoc_data.topics</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#pydoc_data">pydoc_data</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pydoc">pydoc</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="pyexpat"></a>
   <tt>pyexpat</tt> <span class="moduletype"><tt>/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload/pyexpat.cpython-39-darwin.so</tt></span>  <div class="import">
 imported by:
     <a href="#_elementtree">_elementtree</a>
  &#8226;   <a href="#xml.etree.ElementTree">xml.etree.ElementTree</a>
  &#8226;   <a href="#xml.parsers.expat">xml.parsers.expat</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pyimod03_importers"></a>
+  <a target="code" href="" type="text/plain"><tt>pyimod03_importers</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#pyi_rth_pkgutil.py">pyi_rth_pkgutil.py</a>
 
   </div>
 
@@ -6531,6 +7449,29 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="socketserver"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socketserver.py" type="text/plain"><tt>socketserver</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#io">io</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#selectors">selectors</a>
+ &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#threading">threading</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#traceback">traceback</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#http.server">http.server</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="sre_compile"></a>
   <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_compile.py" type="text/plain"><tt>sre_compile</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -6823,6 +7764,7 @@ imported by:
  &#8226;   <a href="#base64">base64</a>
  &#8226;   <a href="#bdb">bdb</a>
  &#8226;   <a href="#calendar">calendar</a>
+ &#8226;   <a href="#cgitb">cgitb</a>
  &#8226;   <a href="#cmd">cmd</a>
  &#8226;   <a href="#code">code</a>
  &#8226;   <a href="#codecs">codecs</a>
@@ -6904,6 +7846,8 @@ imported by:
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyi_rth__tkinter.py">pyi_rth__tkinter.py</a>
+ &#8226;   <a href="#pyi_rth_inspect.py">pyi_rth_inspect.py</a>
+ &#8226;   <a href="#pyi_rth_pkgutil.py">pyi_rth_pkgutil.py</a>
  &#8226;   <a href="#pyi_rth_subprocess.py">pyi_rth_subprocess.py</a>
  &#8226;   <a href="#quopri">quopri</a>
  &#8226;   <a href="#runpy">runpy</a>
@@ -6947,6 +7891,34 @@ imported by:
  &#8226;   <a href="#xmlrpc.client">xmlrpc.client</a>
  &#8226;   <a href="#zipfile">zipfile</a>
  &#8226;   <a href="#zipimport">zipimport</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="sysconfig"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sysconfig.py" type="text/plain"><tt>sysconfig</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_aix_support">_aix_support</a>
+ &#8226;   <a href="#_imp">_imp</a>
+ &#8226;   <a href="#_osx_support">_osx_support</a>
+ &#8226;   <a href="#_sysconfigdata__darwin_darwin">_sysconfigdata__darwin_darwin</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#posixpath">posixpath</a>
+ &#8226;   <a href="#pprint">pprint</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#types">types</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#_aix_support">_aix_support</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#test.support">test.support</a>
 
   </div>
 
@@ -7006,6 +7978,7 @@ imports:
 imported by:
     <a href="#_osx_support">_osx_support</a>
  &#8226;   <a href="#asyncio.windows_utils">asyncio.windows_utils</a>
+ &#8226;   <a href="#cgitb">cgitb</a>
  &#8226;   <a href="#ctypes.util">ctypes.util</a>
  &#8226;   <a href="#distutils.ccompiler">distutils.ccompiler</a>
  &#8226;   <a href="#distutils.util">distutils.util</a>
@@ -7100,6 +8073,7 @@ imported by:
  &#8226;   <a href="#socketserver">socketserver</a>
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#test.support">test.support</a>
+ &#8226;   <a href="#ui.py">ui.py</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
  &#8226;   <a href="#zipfile">zipfile</a>
 
@@ -7120,6 +8094,7 @@ imported by:
  &#8226;   <a href="#_strptime">_strptime</a>
  &#8226;   <a href="#asyncio.base_events">asyncio.base_events</a>
  &#8226;   <a href="#asyncio.windows_events">asyncio.windows_events</a>
+ &#8226;   <a href="#cgitb">cgitb</a>
  &#8226;   <a href="#concurrent.futures._base">concurrent.futures._base</a>
  &#8226;   <a href="#datetime">datetime</a>
  &#8226;   <a href="#email._parseaddr">email._parseaddr</a>
@@ -7229,7 +8204,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
+    <a href="#cgitb">cgitb</a>
+ &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#linecache">linecache</a>
  &#8226;   <a href="#pdb">pdb</a>
@@ -7257,6 +8233,7 @@ imported by:
  &#8226;   <a href="#asyncio.base_tasks">asyncio.base_tasks</a>
  &#8226;   <a href="#asyncio.coroutines">asyncio.coroutines</a>
  &#8226;   <a href="#asyncio.format_helpers">asyncio.format_helpers</a>
+ &#8226;   <a href="#cgitb">cgitb</a>
  &#8226;   <a href="#code">code</a>
  &#8226;   <a href="#concurrent.futures.process">concurrent.futures.process</a>
  &#8226;   <a href="#doctest">doctest</a>
@@ -7302,6 +8279,22 @@ imports:
 imported by:
     <a href="#test.support">test.support</a>
  &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="tty"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tty.py" type="text/plain"><tt>tty</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#termios">termios</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pydoc">pydoc</a>
 
   </div>
 
@@ -7381,6 +8374,7 @@ imported by:
     <a href="#asyncio.staggered">asyncio.staggered</a>
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#importlib.abc">importlib.abc</a>
+ &#8226;   <a href="#ui.py">ui.py</a>
 
   </div>
 
@@ -7551,6 +8545,17 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="vms_lib"></a>
+  <a target="code" href="" type="text/plain"><tt>vms_lib</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#platform">platform</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="warnings"></a>
   <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/warnings.py" type="text/plain"><tt>warnings</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -7667,6 +8672,33 @@ imported by:
  &#8226;   <a href="#ui.py">ui.py</a>
  &#8226;   <a href="#unittest.signals">unittest.signals</a>
  &#8226;   <a href="#xml.sax.expatreader">xml.sax.expatreader</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="webbrowser"></a>
+  <a target="code" href="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/webbrowser.py" type="text/plain"><tt>webbrowser</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#copy">copy</a>
+ &#8226;   <a href="#getopt">getopt</a>
+ &#8226;   <a href="#glob">glob</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pwd">pwd</a>
+ &#8226;   <a href="#shlex">shlex</a>
+ &#8226;   <a href="#shutil">shutil</a>
+ &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#tempfile">tempfile</a>
+ &#8226;   <a href="#threading">threading</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pydoc">pydoc</a>
 
   </div>
 

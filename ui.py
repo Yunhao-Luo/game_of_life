@@ -1,7 +1,9 @@
 from cgitb import text
+from os import abort
 import tkinter as tk
 import time
 from typing import Text
+import threading
 
 from game import *
 
@@ -34,7 +36,7 @@ class UI(tk.Tk):
                 cell = tk.Button(self, width=3, highlightbackground="white", command=lambda r=i, c=j:self.select(r, c))
                 row.append(cell)
                 cell.grid(row = i, column= j)
-        tk.Button(self, text="start", command=self.change, width=5).grid(row=self.row, column=0, columnspan=2)
+        tk.Button(self, text="start", command=self.start, width=5).grid(row=self.row, column=0, columnspan=2)
         tk.Button(self, text="restart", command=self.restart, width=5).grid(row=self.row, column=2, columnspan=2)
         self.pauseBt = tk.Button(self, text="pause", command=self.pause, width=5)
         self.pauseBt.grid(row=self.row, column=4, columnspan=2)
@@ -42,6 +44,7 @@ class UI(tk.Tk):
         self.liveCount.grid(row=self.row, column=6, columnspan=15)
     
     def init_board(self):
+        self.abort = False
         res = []
         for i in range(len(self.bt_list)):
             res.append([])
@@ -60,12 +63,15 @@ class UI(tk.Tk):
             self.game_board[r][c] = 0
     
     def restart(self):
-        self.abort = False
+        self.abort = True
         self.clear_board()
-        self.init_board()
-        self.game_board = []
+        for i in self.game_board:
+            for j in i:
+                j = 0
         self.first_r = True
+        self.count = 0
         self.liveCount.config(text=f"There are {0} living cell")
+
     
     def clear_board(self):
         for r in range(len(self.bt_list)):
@@ -80,12 +86,20 @@ class UI(tk.Tk):
             self.pauseBt.config(text="pause")
             self.change()
 
+    def start(self):
+        if self.abort:
+            self.abort = False
+        self.change()
+
     def change(self):
         if self.abort:
+            print("abort")
             return
         if self.first_r:
+            print("in first round")
             self.game.read_baord(self.init_board())
             self.first_r = False
+            self.abort = False
         print(f"round: {self.count}")
         self.count+=1
         self.game_board = self.game.new_round()
