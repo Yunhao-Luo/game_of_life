@@ -7,7 +7,7 @@ initial state is determined, the game can start its "evolution."
 **Game rules**
 
 Each grey cell represents a living cell, and white cell represents a dead cell 
-or no life cell. Every cell's living status on the next round will be determined
+or no life cell. Every cell's living status in the next round will be determined
 by its neighbours:
 
 1.Any live cell with fewer than two live neighbours dies, as if by underpopulation.
