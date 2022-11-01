@@ -4,7 +4,7 @@
 This is a no player game invented by John Horton Conway in 1970. Once the board's
 initial state is determined, the game can start its "evolution." 
 
-**Game rules**
+## Game rules ##
 
 Each grey cell represents a living cell, and white cell represents a dead cell 
 or no life cell. Every cell's living status in the next round will be determined
@@ -20,14 +20,14 @@ by its neighbours:
 
 *from wikipedia*
 
-**How to play**
+## How to play ##
 
 Before pressing the start button, user can change the living status
 of a cell by clicking on that cell. After setting up the initial board,
 user can click on the start button to begin its "evolution." User can also
 pause, resume, or restart the game at any time.
 
-**Demo**
+## Demo ##
 
 ![](https://i.imgur.com/FjVeur1.gif)
 
